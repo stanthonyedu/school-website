@@ -284,7 +284,7 @@ html,body,.container-fluid {
 .overlay nav {
     position: relative;
     height: 75%;
-    top: 55%;
+    top: 50%;
     right: 6%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -616,7 +616,7 @@ html,body,.container-fluid {
     clear: both;
 }
 
-.admin-pic {
+.admin-pic{
     display: block;
 
     -webkit-border-radius: 50%;
@@ -705,7 +705,7 @@ html,body,.container-fluid {
 
 }
 
-#section3,#section4 {
+#section3,#section4,#section7 {
     background-image: url(../images/landing-page-blurred.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -917,11 +917,11 @@ html,body,.container-fluid {
     font-weight: 500;
 }
 
-#section7 {
+#section8 {
     background-color: #4f2500;
 }
 
-#section7 p {
+#section8 p {
     color: white;
     font-size: 1.8em;
     font-family: 'Roboto Condensed', sans-serif;
@@ -939,7 +939,7 @@ html,body,.container-fluid {
     margin: 0% 3% 6% 6% !important;
 }
 
-#section7 button  {
+#section8 button  {
     background-color: white;
     color: #4f2500;
     -moz-border-radius: 40px;
@@ -987,6 +987,20 @@ html,body,.container-fluid {
 
 .contact {
     opacity: 0;
+}
+
+.appeal-h1 {
+    position: absolute;
+    top: 0;
+}
+.appeal-h4 {
+    background-color: white;
+    color: black;
+    margin: 1% 8% 1% 5%;
+    padding: 3%;
+    line-height: 1.2;
+    border-radius: 35px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 /* media queries */
 
@@ -1109,7 +1123,7 @@ html,body,.container-fluid {
     }
 
 
-    #section7 p {
+    #section8 p {
         font-size: 1.8em;
         margin: 0 5% 15% 9%;
     }
@@ -1122,7 +1136,7 @@ html,body,.container-fluid {
         margin: 2% 6% 10% 6% !important;
     }
 
-    #section7 button {
+    #section8 button {
         width: 125px;
         height: 30px;
         font-size: 1.2em;
@@ -1131,6 +1145,10 @@ html,body,.container-fluid {
 
     .design-foundry {
         font-size: 1.2em;
+    }
+
+    .appeal-h4 {
+        font-size: 0.95em;
     }
 
 }
@@ -1251,7 +1269,7 @@ html,body,.container-fluid {
         }
 
 
-        #section7 p {
+        #section8 p {
             font-size: 1.8em;
             margin: 6% 9% 10% 22%;
         }
@@ -1264,7 +1282,7 @@ html,body,.container-fluid {
             margin: 2% 6% 8% 16% !important;
         }
 
-        #section7 button {
+        #section8 button {
             width: 125px;
             height: 35px;
             font-size: 1.3em;
@@ -1273,6 +1291,10 @@ html,body,.container-fluid {
 
         .design-foundry {
             font-size: 1.3em;
+        }
+
+        .appeal-h4 {
+            font-size: 0.95em;
         }
     }
 
@@ -1392,7 +1414,7 @@ html,body,.container-fluid {
         }
 
 
-        #section7 p {
+        #section8 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1405,7 +1427,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section7 button {
+        #section8 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -1413,6 +1435,10 @@ html,body,.container-fluid {
         }
         .design-foundry {
             font-size: 1.4em;
+        }
+
+        .appeal-h4 {
+            font-size: 0.95em;
         }
 
     }
@@ -1532,7 +1558,7 @@ html,body,.container-fluid {
         }
 
 
-        #section7 p {
+        #section8 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1545,7 +1571,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section7 button {
+        #section8 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -1554,6 +1580,10 @@ html,body,.container-fluid {
 
         .design-foundry {
             font-size: 1.4em;
+        }
+
+        .appeal-h4 {
+            font-size: 1.1em;
         }
     }
     @media screen and (min-width: 801px) {
@@ -1671,7 +1701,7 @@ html,body,.container-fluid {
         }
 
 
-        #section7 p {
+        #section8 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1684,14 +1714,19 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section7 button {
+        #section8 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
             margin: 0% 5% 3% 5%;
         }
+
         .design-foundry {
             font-size: 1.4em;
+        }
+
+        .appeal-h4 {
+            font-size: 1.1em;
         }
 
     }
@@ -1819,7 +1854,7 @@ html,body,.container-fluid {
         }
 
 
-        #section7 p {
+        #section8 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1832,7 +1867,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section7 button {
+        #section8 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -1847,6 +1882,10 @@ html,body,.container-fluid {
             height: 350px;
             width: 45%;
             margin: 5%;
+        }
+
+        .appeal-h4 {
+            font-size: 1.1em;
         }
 
     }
@@ -1980,7 +2019,7 @@ html,body,.container-fluid {
         }
 
 
-        #section7 p {
+        #section8 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1993,7 +2032,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section7 button {
+        #section8 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -2001,6 +2040,10 @@ html,body,.container-fluid {
         }
         .design-foundry {
             font-size: 1.4em;
+        }
+
+        .appeal-h4 {
+            font-size: 1.1em;
         }
 
     }
@@ -2133,7 +2176,7 @@ html,body,.container-fluid {
             padding-bottom: 0;
         }
 
-        #section7 p {
+        #section8 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -2146,7 +2189,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section7 button {
+        #section8 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -2155,5 +2198,9 @@ html,body,.container-fluid {
 
         .design-foundry {
             font-size: 1.4em;
+        }
+
+        .appeal-h4 {
+            font-size: 1.1em;
         }
     }

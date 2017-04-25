@@ -78,7 +78,8 @@
                         <li><a href="#faculty_section">DISTINGUISHED FACULTY MEMBERS</a></li>
                         <li><a href="#staff_section">HELPING STAFF</a></li>
                         <li><a href="#founder_section">WORDS FROM OUR FOUNDER</a></li>
-                        <li><a href="#memory_section">IN OUR MEMORY</a>
+                        <li><a href="#memory_section">IN OUR MEMORY</a></li>
+                        <li><a href="#appeal_section">AN EARNEST APPEAL</a> </li>
                         <li><a href="#contact_section">CONTACT US</a></li>
                     </ul>
                 </nav>
@@ -341,6 +342,44 @@
         </div>
 
         <div class="section" id="section7">
+            <h2 class="section-heading appeal-h1">
+                An Earnest Appeal
+            </h2>
+            <h4 class="appeal-h4">
+                Dear Parents, Friends and Well-Wishers, <br><br>
+                It is with deep concern that we are making this earnest appeal. Our very dedicated teacher, <b>Mrs Meena Shrivastava</b>,
+                our teacher of Hindi in the Middle School, has been suffering for the past four years with a major medical condition,
+                and has been in and out of hospital ever since. Now she has come to a stage where she has to undergo a Plasma Dialysis,
+                a treatment which costs around Rs 4-5 lakhs.
+
+                <br><br>
+
+                As members of this extended family it is only apt and natural to show our solidarity to this cause and support
+                Mrs Shrivastava through her period of great trials through our prayers and by lending a helping hand and
+                contributing generously towards a part of this very costly treatment.
+
+                <br><br>
+                Your contribution can be directly credited to the account of:
+                <br><br>
+                Mr Rishi Kumar Shrivastava
+                <br>
+                H/O Mrs M. Shrivastava
+                <br>
+                Account no: <b> 31783166486</b>
+                <br>
+                IFSC: <b>SBIN0007957</b>
+                <br>
+                Name of the Bank: State Bank of India
+                <br>
+                Name of the branch: A G Office Complex
+                <br><br>
+                Yours sincerely,
+                <br>
+                The Principal
+            </h4>
+        </div>
+
+        <div class="section" id="section8">
             <div id="map" class="col-md-7 col-lg-7 col-sm-7 col-ms-7">
 
             </div>
@@ -376,6 +415,7 @@
             </div>
 
         </div>
+
     </div>
 
         <!-- Javascript files -->
@@ -447,6 +487,7 @@
                 $('#section5').hide();
                 $('#section6').hide();
                 $('#section7').hide();
+                $('#section8').hide();
                 $('#toggle').hide();
 
                 $('#toggle').click(function() {
@@ -461,8 +502,8 @@
                 });
                 $('#fullpage').fullpage({
                     //names for the anchors of the pages
-                    anchors:['welcome','home','administration_page','faculty_section','staff_section','founder_section','memory_section',
-                    'contact_section'],
+                    anchors:['welcome','home','administration_page','faculty_section','staff_section','founder_section','memory_section'
+                        ,'appeal_section','contact_section'],
                     navigation: true,
                     navigationPosition: 'right',
                     fixedElements: '#toggle,#overlay',
@@ -480,6 +521,7 @@
                             $('#section5').show();
                             $('#section6').show();
                             $('#section7').show();
+                            $('#section8').show();
 
                             $('#toggle').hide();
 
@@ -544,7 +586,16 @@
                             $.fn.fullpage.setAllowScrolling(true,'up');
                             $.fn.fullpage.setKeyboardScrolling(true, 'up');
                         }
-                        if(index == 8 || anchorLink == 'contact_section'){
+
+                        if(index == 8 || anchorLink == 'appeal_section') {
+                            $('#fp-nav').show();
+                            $('#toggle').show();
+                            $('#section7 .section-heading').addClass('animated fadeInDown');
+                            $.fn.fullpage.setAllowScrolling(true,'up');
+                            $.fn.fullpage.setKeyboardScrolling(true, 'up');
+                        }
+
+                        if(index == 9 || anchorLink == 'contact_section'){
                             $('#fp-nav').show();
                             $('#toggle').show();
                             $('#map').addClass('animated fadeInLeft');
@@ -553,6 +604,7 @@
                             $.fn.fullpage.setAllowScrolling(true,'up');
                             $.fn.fullpage.setKeyboardScrolling(true, 'up');
                         }
+
                     }
 
                 });
