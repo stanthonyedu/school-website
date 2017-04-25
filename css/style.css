@@ -999,7 +999,7 @@ html,body,.container-fluid {
     margin: 1% 8% 1% 5%;
     padding: 3%;
     line-height: 1.2;
-    border-radius: 35px;
+    border-radius: 3px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 /* media queries */
@@ -2201,6 +2201,6 @@ html,body,.container-fluid {
         }
 
         .appeal-h4 {
-            font-size: 1.1em;
+            font-size: 1.25em;
         }
     }
