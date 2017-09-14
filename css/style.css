@@ -705,7 +705,7 @@ html,body,.container-fluid {
 
 }
 
-#section3,#section4,#section7 {
+#section3,#section4 {
     background-image: url(../images/landing-page-blurred.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -917,11 +917,11 @@ html,body,.container-fluid {
     font-weight: 500;
 }
 
-#section8 {
+#section7 {
     background-color: #4f2500;
 }
 
-#section8 p {
+#section7 p {
     color: white;
     font-size: 1.8em;
     font-family: 'Roboto Condensed', sans-serif;
@@ -939,7 +939,7 @@ html,body,.container-fluid {
     margin: 0% 3% 6% 6% !important;
 }
 
-#section8 button  {
+#section7 button  {
     background-color: white;
     color: #4f2500;
     -moz-border-radius: 40px;
@@ -1123,7 +1123,7 @@ html,body,.container-fluid {
     }
 
 
-    #section8 p {
+    #section7 p {
         font-size: 1.8em;
         margin: 0 5% 15% 9%;
     }
@@ -1136,7 +1136,7 @@ html,body,.container-fluid {
         margin: 2% 6% 10% 6% !important;
     }
 
-    #section8 button {
+    #section7 button {
         width: 125px;
         height: 30px;
         font-size: 1.2em;
@@ -1269,7 +1269,7 @@ html,body,.container-fluid {
         }
 
 
-        #section8 p {
+        #section7 p {
             font-size: 1.8em;
             margin: 6% 9% 10% 22%;
         }
@@ -1282,7 +1282,7 @@ html,body,.container-fluid {
             margin: 2% 6% 8% 16% !important;
         }
 
-        #section8 button {
+        #section7 button {
             width: 125px;
             height: 35px;
             font-size: 1.3em;
@@ -1414,7 +1414,7 @@ html,body,.container-fluid {
         }
 
 
-        #section8 p {
+        #section7 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1427,7 +1427,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section8 button {
+        #section7 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -1558,7 +1558,7 @@ html,body,.container-fluid {
         }
 
 
-        #section8 p {
+        #section7 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1571,7 +1571,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section8 button {
+        #section7 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -1701,7 +1701,7 @@ html,body,.container-fluid {
         }
 
 
-        #section8 p {
+        #section7 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1714,7 +1714,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section8 button {
+        #section7 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -1854,7 +1854,7 @@ html,body,.container-fluid {
         }
 
 
-        #section8 p {
+        #section7 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -1867,7 +1867,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section8 button {
+        #section7 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -2019,7 +2019,7 @@ html,body,.container-fluid {
         }
 
 
-        #section8 p {
+        #section7 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -2032,7 +2032,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section8 button {
+        #section7 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
@@ -2176,7 +2176,7 @@ html,body,.container-fluid {
             padding-bottom: 0;
         }
 
-        #section8 p {
+        #section7 p {
             font-size: 1.8em;
             margin: 9.5% 5% 6% 5%;
         }
@@ -2189,7 +2189,7 @@ html,body,.container-fluid {
             margin: 0% 3% 8% 6% !important;
         }
 
-        #section8 button {
+        #section7 button {
             width: 200px;
             height: 50px;
             font-size: 1.8em;
