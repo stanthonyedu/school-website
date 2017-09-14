@@ -983,6 +983,10 @@ html,body,.container-fluid {
     width: 100%;
     opacity: 0;
 }
+.design-foundry a{
+    color: black;
+
+}
 
 
 .contact {
